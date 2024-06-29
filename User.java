@@ -89,3 +89,4 @@ public class User {
         return newsFeed.size(); // Assuming newsFeed contains distinct tweets
     }
 }
+
