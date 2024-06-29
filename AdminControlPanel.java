@@ -148,7 +148,7 @@ public class AdminControlPanel extends JFrame {
 
         JButton totalTweetsButton = new JButton("Total Tweets");
         totalTweetsButton.addActionListener(e -> {
-            int totalTweets = twitterService.getTotalTweets();
+            int totalTweets = twitterService.getTotalTweetsCount();
             JOptionPane.showMessageDialog(null, "Total Tweets: " + totalTweets);
         });
         statPanel.add(totalTweetsButton);
